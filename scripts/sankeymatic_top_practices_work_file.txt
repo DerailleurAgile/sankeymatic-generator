@@ -1,0 +1,150 @@
+// SankeyMATIC diagram inputs - Saved: 4/14/2025, 2:53:21 PM
+// https://sankeymatic.com/build/
+
+// === Nodes and Flows ===
+
+// TOP-PRACTICES --> SYMPTOMS
+// Rendered at: 2025-04-14 10:16:11
+//==============================
+// NODE COLOR DEFINITIONS
+//==============================
+
+:Reactive Behaviors #1f77b4
+:Fear-Inducing Practices #2ca02c
+:Siloed Structures #9467bd
+:Target-Driven Approaches #ff7f0e
+:Q18: Reactive Management #629fca
+:Q20: Incentive Pay #95cf95
+:Q21: Independent Entities #b494d0
+:Q22: Inconsistent Communication #c9b3de
+:Q24: Numerical Targets #ffbf86
+:Cultural Symptoms #9e9ac8
+:Leadership Symptoms #bdbdbd
+:Operational Symptoms #d9d574
+:Outcome Symptoms #74a9cf
+:Q1: Culture of Fear #bcbddc
+:Q2: Lack of Innovation #bcbddc
+:Q3: Insufficient Investment in Education #9e9ac8
+:Q4: Individual Accountability #bcbddc
+:Q5: Productive Disagreements* #bcbddc
+:Q6: Team Frustration #bcbddc
+:Q7: Short-Term Focus #bdbdbd
+:Q8: Overreacting to Fluctuations #bdbdbd
+:Q9: Distractions #bdbdbd
+:Q10: Burnout #bdbdbd
+:Q11: Constant Firefighting #d9d574
+:Q12: Conflicting Goals #d9d574
+:Q13: Data Overload #d9d574
+:Q14: Rework #d9d574
+:Q15: Inability to Sustain Improvements #d9d574
+:Q16: Customer Dissatisfaction #74a9cf
+:Q17: Perceived Productivity* #74a9cf
+
+//==============================
+// PRACTICE CATEGORY → PRACTICES
+//==============================
+
+Reactive Behaviors [207.67] Q18: Reactive Management
+Fear-Inducing Practices [131.67] Q20: Incentive Pay
+Siloed Structures [147.67] Q21: Independent Entities
+Siloed Structures [144.59] Q22: Inconsistent Communication
+Target-Driven Approaches [187.67] Q24: Numerical Targets
+
+//==============================
+// PRACTICES → SYMPTOM CATEGORIES
+//==============================
+
+Q18: Reactive Management [75.67] Cultural Symptoms
+Q20: Incentive Pay [91.67] Cultural Symptoms
+Q21: Independent Entities [59.67] Cultural Symptoms
+Q22: Inconsistent Communication [74.09] Cultural Symptoms
+Q24: Numerical Targets [91.67] Cultural Symptoms
+Q18: Reactive Management [44.00] Leadership Symptoms
+Q20: Incentive Pay [28.00] Leadership Symptoms
+Q21: Independent Entities [16.00] Leadership Symptoms
+Q24: Numerical Targets [56.00] Leadership Symptoms
+Q18: Reactive Management [60.00] Operational Symptoms
+Q21: Independent Entities [44.00] Operational Symptoms
+Q22: Inconsistent Communication [43.08] Operational Symptoms
+Q24: Numerical Targets [28.00] Operational Symptoms
+Q18: Reactive Management [28.00] Outcome Symptoms
+Q20: Incentive Pay [12.00] Outcome Symptoms
+Q21: Independent Entities [28.00] Outcome Symptoms
+Q22: Inconsistent Communication [27.42] Outcome Symptoms
+Q24: Numerical Targets [12.00] Outcome Symptoms
+
+//==============================
+// SYMPTOM CATEGORIES → INDIVIDUAL SYMPTOMS
+//==============================
+
+Cultural Symptoms [79.67] Q1: Culture of Fear
+Cultural Symptoms [78.01] Q2: Lack of Innovation
+Cultural Symptoms [79.67] Q3: Insufficient Investment in Education
+Cultural Symptoms [48.00] Q4: Individual Accountability
+Cultural Symptoms [59.75] Q5: Productive Disagreements*
+Cultural Symptoms [47.67] Q6: Team Frustration
+Leadership Symptoms [64.00] Q7: Short-Term Focus
+Leadership Symptoms [24.00] Q8: Overreacting to Fluctuations
+Leadership Symptoms [32.00] Q9: Distractions
+Leadership Symptoms [24.00] Q10: Burnout
+Operational Symptoms [16.00] Q11: Constant Firefighting
+Operational Symptoms [31.67] Q12: Conflicting Goals
+Operational Symptoms [32.00] Q13: Data Overload
+Operational Symptoms [47.67] Q14: Rework
+Operational Symptoms [47.75] Q15: Inability to Sustain Improvements
+Outcome Symptoms [47.67] Q16: Customer Dissatisfaction
+Outcome Symptoms [59.75] Q17: Perceived Productivity*
+
+// === Settings ===
+
+size w 1200
+  h 600
+margin l 12
+  r 12
+  t 18
+  b 20
+bg color #ffffff
+  transparent N
+node w 12
+  h 50
+  spacing 80
+  border 0
+  theme b
+  color #888888
+  opacity 1
+flow curvature 0.5
+  inheritfrom target
+  color #999999
+  opacity 0.45
+layout order exact
+  justifyorigins N
+  justifyends N
+  reversegraph N
+  attachincompletesto nearest
+labels color #000000
+  hide N
+  highlight 0.75
+  fontface sans-serif
+  linespacing 0.2
+  relativesize 100
+  magnify 143
+labelname appears Y
+  size 13.5
+  weight 400
+labelvalue appears Y
+  fullprecision Y
+  position below
+  weight 400
+labelposition autoalign 0
+  scheme auto
+  first before
+  breakpoint 5
+value format ',.'
+  prefix ''
+  suffix ''
+themeoffset a 6
+  b 0
+  c 0
+  d 0
+meta mentionsankeymatic Y
+  listimbalances Y
