@@ -455,7 +455,7 @@ def main():
     symptom_category_colors, symptom_colors = define_symptom_colors()
 
     # Step 2: Load and clean data.
-    df = load_excel_file("/data/Leadership Survey Matrices.xlsx")
+    df = load_excel_file("data/Leadership Survey Matrices.xlsx")
     df = clean_dataframe(df)
     print("\n--- RAW FIRST COLUMN VALUES (first 20) ---")
     for i, val in enumerate(df.iloc[:20, 0]):
